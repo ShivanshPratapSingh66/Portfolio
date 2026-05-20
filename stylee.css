@@ -160,6 +160,25 @@ a{
 }
 
 
+ .certificates{
+    display: flex;
+    flex-direction: row;   /* row wise */
+     justify-content:space-between;
+    flex-wrap: wrap;       
+}
+
+ .certificate img{
+    margin: 15px;
+    width: 320px;
+    background-color: aliceblue;
+   
+    border-radius: 20px;
+    box-shadow: rgba(241, 29, 29, 0.1) 0px 10px 50px;
+   
+    
+}
+
+
 
 
 .education-item {
